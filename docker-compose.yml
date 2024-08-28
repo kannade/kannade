@@ -2,9 +2,9 @@ services:
 
   ai-service:
     #build: ./
-    image: ai-service
+    image: nickcodev/ai-service:0.0.1
     ports:
-      - 8000:8000
+      - 8080:8000
     command: python main.py
     # volumes:
     #   - ./:/usr/src/app
